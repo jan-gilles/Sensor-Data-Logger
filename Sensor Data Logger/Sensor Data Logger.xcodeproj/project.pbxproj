@@ -1,0 +1,419 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3D2A837824E42F7D00BDD353 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D2A837724E42F7D00BDD353 /* AppDelegate.swift */; };
+		3D2A837A24E42F7D00BDD353 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D2A837924E42F7D00BDD353 /* SceneDelegate.swift */; };
+		3D2A837F24E42F7D00BDD353 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D2A837D24E42F7D00BDD353 /* Main.storyboard */; };
+		3D2A838124E42F7E00BDD353 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D2A838024E42F7E00BDD353 /* Assets.xcassets */; };
+		3D2A838424E42F7E00BDD353 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D2A838224E42F7E00BDD353 /* LaunchScreen.storyboard */; };
+		3D2A838C24E4309500BDD353 /* DataLoggerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D2A838B24E4309500BDD353 /* DataLoggerViewController.swift */; };
+		3D2A838E24E435FB00BDD353 /* SensorData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D2A838D24E435FB00BDD353 /* SensorData.swift */; };
+		3D2A839024E4447F00BDD353 /* ModelController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D2A838F24E4447F00BDD353 /* ModelController.swift */; };
+		3D7354DA24E684810040574F /* PreferenceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D7354D924E684810040574F /* PreferenceViewController.swift */; };
+		3D92749024E578C3007AD409 /* Pedometer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D92748F24E578C3007AD409 /* Pedometer.swift */; };
+		3D92749224E57D41007AD409 /* Notification.Name+Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D92749124E57D41007AD409 /* Notification.Name+Helpers.swift */; };
+		3D92749524E58C7B007AD409 /* Orientation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D92749424E58C7B007AD409 /* Orientation.swift */; };
+		3D92749924E59566007AD409 /* SensorController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D92749824E59566007AD409 /* SensorController.swift */; };
+		3D9E554924E56CC9005B3596 /* Acceleration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D9E554824E56CC9005B3596 /* Acceleration.swift */; };
+		3D9E554B24E56CEC005B3596 /* RotationRate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D9E554A24E56CEC005B3596 /* RotationRate.swift */; };
+		3D9E554D24E56D14005B3596 /* MagneticField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D9E554C24E56D14005B3596 /* MagneticField.swift */; };
+		3D9E554F24E56D3E005B3596 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D9E554E24E56D3E005B3596 /* Location.swift */; };
+		3DD3482824E5E18E005E7204 /* SensorDataSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DD3482724E5E18E005E7204 /* SensorDataSet.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3D2A837424E42F7D00BDD353 /* Sensor Data Logger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sensor Data Logger.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D2A837724E42F7D00BDD353 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3D2A837924E42F7D00BDD353 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		3D2A837E24E42F7D00BDD353 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3D2A838024E42F7E00BDD353 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3D2A838324E42F7E00BDD353 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3D2A838524E42F7E00BDD353 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D2A838B24E4309500BDD353 /* DataLoggerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataLoggerViewController.swift; sourceTree = "<group>"; };
+		3D2A838D24E435FB00BDD353 /* SensorData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SensorData.swift; sourceTree = "<group>"; };
+		3D2A838F24E4447F00BDD353 /* ModelController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelController.swift; sourceTree = "<group>"; };
+		3D7354D924E684810040574F /* PreferenceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferenceViewController.swift; sourceTree = "<group>"; };
+		3D92748F24E578C3007AD409 /* Pedometer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pedometer.swift; sourceTree = "<group>"; };
+		3D92749124E57D41007AD409 /* Notification.Name+Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Notification.Name+Helpers.swift"; sourceTree = "<group>"; };
+		3D92749424E58C7B007AD409 /* Orientation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Orientation.swift; sourceTree = "<group>"; };
+		3D92749824E59566007AD409 /* SensorController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SensorController.swift; sourceTree = "<group>"; };
+		3D9E554824E56CC9005B3596 /* Acceleration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Acceleration.swift; sourceTree = "<group>"; };
+		3D9E554A24E56CEC005B3596 /* RotationRate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotationRate.swift; sourceTree = "<group>"; };
+		3D9E554C24E56D14005B3596 /* MagneticField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagneticField.swift; sourceTree = "<group>"; };
+		3D9E554E24E56D3E005B3596 /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		3DD3482724E5E18E005E7204 /* SensorDataSet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SensorDataSet.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3D2A837124E42F7D00BDD353 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3D2A836B24E42F7D00BDD353 = {
+			isa = PBXGroup;
+			children = (
+				3D2A837624E42F7D00BDD353 /* Sensor Data Logger */,
+				3D2A837524E42F7D00BDD353 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3D2A837524E42F7D00BDD353 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3D2A837424E42F7D00BDD353 /* Sensor Data Logger.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3D2A837624E42F7D00BDD353 /* Sensor Data Logger */ = {
+			isa = PBXGroup;
+			children = (
+				3D2A837724E42F7D00BDD353 /* AppDelegate.swift */,
+				3D2A837924E42F7D00BDD353 /* SceneDelegate.swift */,
+				3D7354D924E684810040574F /* PreferenceViewController.swift */,
+				3D2A838B24E4309500BDD353 /* DataLoggerViewController.swift */,
+				3D92749824E59566007AD409 /* SensorController.swift */,
+				3D2A837D24E42F7D00BDD353 /* Main.storyboard */,
+				3D9E554724E56CBB005B3596 /* Model */,
+				3D2A838024E42F7E00BDD353 /* Assets.xcassets */,
+				3D2A838224E42F7E00BDD353 /* LaunchScreen.storyboard */,
+				3D2A838524E42F7E00BDD353 /* Info.plist */,
+				3D92749324E57D46007AD409 /* Helpers */,
+			);
+			path = "Sensor Data Logger";
+			sourceTree = "<group>";
+		};
+		3D92749324E57D46007AD409 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				3D92749124E57D41007AD409 /* Notification.Name+Helpers.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		3D9E554724E56CBB005B3596 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3D2A838F24E4447F00BDD353 /* ModelController.swift */,
+				3DD3482724E5E18E005E7204 /* SensorDataSet.swift */,
+				3D2A838D24E435FB00BDD353 /* SensorData.swift */,
+				3D9E554824E56CC9005B3596 /* Acceleration.swift */,
+				3D9E554A24E56CEC005B3596 /* RotationRate.swift */,
+				3D9E554C24E56D14005B3596 /* MagneticField.swift */,
+				3D9E554E24E56D3E005B3596 /* Location.swift */,
+				3D92748F24E578C3007AD409 /* Pedometer.swift */,
+				3D92749424E58C7B007AD409 /* Orientation.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3D2A837324E42F7D00BDD353 /* Sensor Data Logger */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D2A838824E42F7E00BDD353 /* Build configuration list for PBXNativeTarget "Sensor Data Logger" */;
+			buildPhases = (
+				3D2A837024E42F7D00BDD353 /* Sources */,
+				3D2A837124E42F7D00BDD353 /* Frameworks */,
+				3D2A837224E42F7D00BDD353 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Sensor Data Logger";
+			productName = "Sensor Data Logger";
+			productReference = 3D2A837424E42F7D00BDD353 /* Sensor Data Logger.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3D2A836C24E42F7D00BDD353 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1160;
+				LastUpgradeCheck = 1160;
+				ORGANIZATIONNAME = "Jan Gilles";
+				TargetAttributes = {
+					3D2A837324E42F7D00BDD353 = {
+						CreatedOnToolsVersion = 11.6;
+					};
+				};
+			};
+			buildConfigurationList = 3D2A836F24E42F7D00BDD353 /* Build configuration list for PBXProject "Sensor Data Logger" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3D2A836B24E42F7D00BDD353;
+			productRefGroup = 3D2A837524E42F7D00BDD353 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3D2A837324E42F7D00BDD353 /* Sensor Data Logger */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3D2A837224E42F7D00BDD353 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D2A838424E42F7E00BDD353 /* LaunchScreen.storyboard in Resources */,
+				3D2A838124E42F7E00BDD353 /* Assets.xcassets in Resources */,
+				3D2A837F24E42F7D00BDD353 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3D2A837024E42F7D00BDD353 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D7354DA24E684810040574F /* PreferenceViewController.swift in Sources */,
+				3D9E554B24E56CEC005B3596 /* RotationRate.swift in Sources */,
+				3D2A837824E42F7D00BDD353 /* AppDelegate.swift in Sources */,
+				3D9E554924E56CC9005B3596 /* Acceleration.swift in Sources */,
+				3D2A839024E4447F00BDD353 /* ModelController.swift in Sources */,
+				3D92749924E59566007AD409 /* SensorController.swift in Sources */,
+				3D92749524E58C7B007AD409 /* Orientation.swift in Sources */,
+				3D9E554F24E56D3E005B3596 /* Location.swift in Sources */,
+				3D92749024E578C3007AD409 /* Pedometer.swift in Sources */,
+				3D2A837A24E42F7D00BDD353 /* SceneDelegate.swift in Sources */,
+				3D2A838C24E4309500BDD353 /* DataLoggerViewController.swift in Sources */,
+				3D9E554D24E56D14005B3596 /* MagneticField.swift in Sources */,
+				3D92749224E57D41007AD409 /* Notification.Name+Helpers.swift in Sources */,
+				3DD3482824E5E18E005E7204 /* SensorDataSet.swift in Sources */,
+				3D2A838E24E435FB00BDD353 /* SensorData.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3D2A837D24E42F7D00BDD353 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D2A837E24E42F7D00BDD353 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3D2A838224E42F7E00BDD353 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D2A838324E42F7E00BDD353 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3D2A838624E42F7E00BDD353 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Apple Distribution: Jan Gilles (4EV4FQTKFD)";
+				CODE_SIGN_STYLE = Manual;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 4EV4FQTKFD;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = "Sensor Data Logger";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3D2A838724E42F7E00BDD353 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Apple Distribution: Jan Gilles (4EV4FQTKFD)";
+				CODE_SIGN_STYLE = Manual;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 4EV4FQTKFD;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = "Sensor Data Logger";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3D2A838924E42F7E00BDD353 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Distribution: Jan Gilles (4EV4FQTKFD)";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 4EV4FQTKFD;
+				INFOPLIST_FILE = "Sensor Data Logger/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jan-gilles.Sensor-Data-Logger";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "Sensor Data Logger";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		3D2A838A24E42F7E00BDD353 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Distribution: Jan Gilles (4EV4FQTKFD)";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 4EV4FQTKFD;
+				INFOPLIST_FILE = "Sensor Data Logger/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jan-gilles.Sensor-Data-Logger";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "Sensor Data Logger";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3D2A836F24E42F7D00BDD353 /* Build configuration list for PBXProject "Sensor Data Logger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D2A838624E42F7E00BDD353 /* Debug */,
+				3D2A838724E42F7E00BDD353 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D2A838824E42F7E00BDD353 /* Build configuration list for PBXNativeTarget "Sensor Data Logger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D2A838924E42F7E00BDD353 /* Debug */,
+				3D2A838A24E42F7E00BDD353 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3D2A836C24E42F7D00BDD353 /* Project object */;
+}
